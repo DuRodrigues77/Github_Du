@@ -18,7 +18,8 @@ body {
 .projeto {
     width: 400px;
     height: 500px;
-    padding: 20px;
+    padding: 30px;
+    margin: 30px;
     border-radius: 5px;
     border: 1px solid black;
     background-color: aqua;
