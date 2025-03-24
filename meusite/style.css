@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+
+}
+
+.projeto {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.discord{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
