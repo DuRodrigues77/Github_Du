@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+   
     
   
 
@@ -19,11 +19,13 @@
   
 body {
     height: 100vh;
+    width: auto;
+ margin:  auto;
+ 
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background-color: black
+ background-color: black
 }
 
 h1{
@@ -36,6 +38,7 @@ h1{
 }
 
 .projeto2 {
+    position: absolute;
     width: 400px;
     height: 500px;
     background-image: url(thumb-1920-1358905.png);
