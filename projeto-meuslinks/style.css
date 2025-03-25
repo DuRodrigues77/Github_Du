@@ -159,7 +159,7 @@ h2 {
 }
 
 
-.whatsapp {
+.facebook {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -173,11 +173,11 @@ h2 {
 
 }
 
-.whatsapp:hover {
+.facebook:hover {
     scale: 1.3;
 }
 
-.whatsapp:hover {
+.facebook:hover {
     p {
         font-weight: 400;
         text-shadow: 0 0 5px #00C8E6, 0 0 10px #0088CC;
