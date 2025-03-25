@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
    
     
   
@@ -18,14 +18,12 @@
  }
   
 body {
-    height: 100vh;
-    width: auto;
- margin:  auto;
- 
-    display: flex;
-    align-items: center;
-    justify-content: center;
- background-color: black
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
 }
 
 h1{
@@ -44,7 +42,6 @@ h1{
     background-image: url(thumb-1920-1358905.png);
     background-size: cover;
     border-radius: 5px;
-    
     padding: 30px;
     gap: 20px;
 }
@@ -59,7 +56,7 @@ h1{
     backdrop-filter: blur(3px);
     border-radius: 5px;
     border: 1px solid rgba(103, 101, 105, 0.438);
-    padding: 50px;
+    padding: 30px;
     gap: 25px;
 
     
@@ -147,7 +144,7 @@ footer{
     text-align: center;
     font-size: 14px;
     position: absolute;
-    color: aliceblue;
+    color: rgb(10, 131, 236);
     margin-top: 600px;
     font-family: "Roboto Condensed", sans-serif;
 }
