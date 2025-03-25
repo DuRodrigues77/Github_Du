@@ -1,53 +1,150 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    
+  
+
+}
+@font-face {
+    font-family: "Roboto Condensed", sans-serif;
+        src: url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 }
 
+@font-face {
+    font-family: "Josefin Sans", sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+ }
+  
 body {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+
     background-color: black
-    
+}
 
-    
+h1{
+    color: #fcfcfc;
+    font-family: "Josefin Sans", sans-serif;
+    /* text-shadow: 2px 2px 5px rgb(3, 1, 1) ; */
 
+    color: #FFFFFF; /* Branco puro */
+    text-shadow: 0 0 5px #00C8E6, 0 0 10px #0088CC;
+}
+
+.projeto2 {
+    width: 400px;
+    height: 500px;
+    background-image: url(thumb-1920-1358905.png);
+    background-size: cover;
+    border-radius: 5px;
+    
+    padding: 30px;
+    gap: 20px;
 }
 
 .projeto {
+    position: absolute;
     width: 400px;
     height: 500px;
-    padding: 50px;
-    margin: 30px;
-    border-radius: 5px;
-    border: 1px solid black;
-    background-color: aqua;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    backdrop-filter: blur(3px);
+    border-radius: 5px;
+    border: 1px solid rgba(103, 101, 105, 0.438);
+    padding: 50px;
+    gap: 25px;
+
     
 
 }
 
-.github{
+
+
+.github {
+
+    
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    p {
+        color: white;
+        font-family: "Roboto Condensed", sans-serif;
+
+    }
+
 }
 
-.linkedin{
+.github:hover{
+    scale: 1.4;
+}
+
+.github:hover {
+    p {
+        font-weight: bold;
+    }
+}
+
+.linkedin {
+
+    
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    p {
+        color: white;
+        font-family: "Roboto Condensed", sans-serif;
+
+    }
+
+}
+.linkedin:hover{
+    scale: 1.4;
+}
+
+.linkedin:hover {
+    p {
+        font-weight: bold;
+    }
+}
+
+.discord {
+
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+        color: white;
+        font-family: "Roboto Condensed", sans-serif;
+
+    }
 
 }
 
-.discord{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.discord:hover{
+    scale: 1.4;
+}
+
+.discord:hover {
+    p {
+        font-weight: bold;
+    }
+}
+
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    color: aliceblue;
+    margin-top: 600px;
+    font-family: "Roboto Condensed", sans-serif;
 }
