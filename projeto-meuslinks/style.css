@@ -22,11 +22,15 @@
 
 body {
     background-color: rgb(7, 1, 1);
+    background-image: url(./imagem/thumb-1920-1358905.png);
+    background-color: rgba(0, 0, 0, 0.26);
+
+   
 }
 
 main {
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 1000px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,8 +55,8 @@ main {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    background-image: url(./imagem/thumb-1920-1358905.png);
-    background-color: rgba(0, 0, 0, 0.26);
+    /* background-image: url(./imagem/thumb-1920-1358905.png); */
+    background-color: rgba(0, 0, 0, 0.541);
     background-blend-mode: darken;
     background-size: cover;
     box-shadow: -1px -1px 15px rgba(7, 163, 150, 0.295);
