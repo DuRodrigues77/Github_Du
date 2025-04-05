@@ -24,6 +24,7 @@ body {
     background-color: rgb(7, 1, 1);
     background-image: url(./imagem/thumb-1920-1358905.png);
     background-color: rgba(0, 0, 0, 0.26);
+    background-size: cover;
 
    
 }
