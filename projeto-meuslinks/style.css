@@ -24,7 +24,7 @@ body {
     background-color: rgb(7, 1, 1);
     background-image: url(./imagem/ChatGPT\ Image\ 5\ de\ abr.\ de\ 2025\,\ 20_58_28.png);
     background-color: rgba(0, 0, 0, 0.26);
-    background-size: cover;
+    /* background-size: cover; */
 
    
 }
@@ -35,9 +35,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    margin-top: 100px;
-
+   margin: auto;
+   margin-top: 100px;
 
 
 
